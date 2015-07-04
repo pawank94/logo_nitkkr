@@ -3,6 +3,33 @@ body{
 	width:100%;
 	background:#fff176;
 }
+.gawds-ring{
+	left:32%;
+	position:absolute;
+	display:block;
+	height:400px;
+	width:450px;
+	border-radius:50%;
+}
+.gawds-ring div{
+  height: 60px;
+  font-size:50px;
+  font-family: 'Lobster';
+  position: absolute;
+  top:50%;
+  width: 2.5ch;
+  left: 44%;
+  transform-origin: top center;
+}
+.leaf-rim{
+  position: absolute;
+  transform:translate(125%,55%) scale(5,3);
+}
+.leaf-rim-1{
+  position: absolute;
+  transform-origin:left center;
+  transform:translate(-140%,55%) scale(5,3) rotateY(180deg);
+}
 .v-middle{
 	top:50%;
 	-webkit-transform:translateY(-50%);
@@ -648,4 +675,19 @@ body{
 .char15{
 	transform:rotate(-220deg) rotateZ(180deg) translateY(172%);
 	font-size:16px !important;
+}
+.gawds-rim-1{
+	transform:rotate(245deg) rotateZ(180deg) translateY(260%);
+}
+.gawds-rim-2{
+	transform:rotate(212deg) rotateZ(180deg) translateY(260%);	
+}
+.gawds-rim-3{
+	transform:rotate(179deg) rotateZ(180deg) translateY(260%);
+}
+.gawds-rim-4{
+	transform:rotate(142deg) rotateZ(180deg) translateY(260%);
+}
+.gawds-rim-5{
+	transform:rotate(105deg) rotateZ(180deg) translateY(260%);
 }
